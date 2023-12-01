@@ -7,16 +7,6 @@ terraform {
   }
 }
 
-# Variables for AWS credentials
-variable "aws_access_key_id" {
-  type    = string
-  default = "AKIAVD4MF7WNKEZGQ33B"
-}
-
-variable "aws_secret_access_key" {
-  type    = string
-  default = "AbdNEyUzg9bn5+3kF+GuPrcTXuUyAzlrD6jI/hoo"
-}
 
 # Configure the AWS Provider
 provider "aws" {
